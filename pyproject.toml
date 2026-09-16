@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghpick"
+version = "0.1.0"
+description = "Download selected files and folders from public GitHub repositories."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+    "rich>=13.7",
+    "textual>=8.2",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+ghpick = "ghpick.cli.commands:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

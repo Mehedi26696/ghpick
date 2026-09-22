@@ -12,8 +12,6 @@ from ghpick.exceptions import GitHubApiError, GitHubRateLimitError
 
 API_ROOT = "https://api.github.com"
 TOKEN_ENV_VARS = (
-    "GITHUB_TOKEN",
-    "GHPICK_TOKEN",
     "GITHUB_ACCESS_TOKEN",
 )
 

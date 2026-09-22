@@ -22,11 +22,9 @@ def make_json_response(payload, status_code=200, headers=None):
     return response
 
 
-def test_client_reads_gihub_access_token(monkeypatch):
-    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
-    monkeypatch.delenv("GHPICK_TOKEN", raising=False)
+def test_client_reads_github_access_token(monkeypatch):
     monkeypatch.delenv("GITHUB_ACCESS_TOKEN", raising=False)
-    monkeypatch.setenv("GIHUB_ACCESS_TOKEN", "secret-token")
+    monkeypatch.setenv("GITHUB_ACCESS_TOKEN", "secret-token")
 
     session = requests.Session()
     GitHubClient(session=session)
@@ -35,7 +33,7 @@ def test_client_reads_gihub_access_token(monkeypatch):
 
 
 def test_explicit_token_overrides_env(monkeypatch):
-    monkeypatch.setenv("GIHUB_ACCESS_TOKEN", "env-token")
+    monkeypatch.setenv("GITHUB_ACCESS_TOKEN", "env-token")
 
     session = requests.Session()
     GitHubClient(token="explicit-token", session=session)

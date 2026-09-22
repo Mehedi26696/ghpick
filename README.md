@@ -8,8 +8,7 @@ An optional Python CLI is also included for scripting and terminal workflows.
 
 ## Demo
 
-[![Watch the GHPick demo](demo-preview.png)](demo.webm)
-
+[demo.webm](https://github.com/user-attachments/assets/6f07111d-d3dd-4312-a541-f7a52d527c58)
 Click the preview to watch the demo.
 
 ## What it can do

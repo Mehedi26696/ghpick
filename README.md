@@ -6,6 +6,14 @@ whole project.
 GHPick provides a browser interface built with plain HTML, CSS, and JavaScript.
 An optional Python CLI is also included for scripting and terminal workflows.
 
+## Demo
+
+<video src="demo.webm" controls width="900">
+  Your browser does not support embedded WebM video.
+</video>
+
+[Watch or download the demo](demo.webm)
+
 ## What it can do
 
 - Browse a GitHub repository as a file tree

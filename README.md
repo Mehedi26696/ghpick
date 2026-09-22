@@ -8,8 +8,7 @@ An optional Python CLI is also included for scripting and terminal workflows.
 
 ## Demo
 
-[demo.webm](https://github.com/user-attachments/assets/6f07111d-d3dd-4312-a541-f7a52d527c58)
-Click the preview to watch the demo.
+https://github.com/user-attachments/assets/6f07111d-d3dd-4312-a541-f7a52d527c58
 
 ## What it can do
 

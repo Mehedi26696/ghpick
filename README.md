@@ -132,6 +132,3 @@ Current result: **27 tests passing**.
   large selections.
 - The browser download location is controlled by browser settings.
 
-## License
-
-Open-source project created by H.M. Mehedi Hasan.

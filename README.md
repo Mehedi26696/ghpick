@@ -8,11 +8,9 @@ An optional Python CLI is also included for scripting and terminal workflows.
 
 ## Demo
 
-<video src="demo.webm" controls width="900">
-  Your browser does not support embedded WebM video.
-</video>
+[![Watch the GHPick demo](demo-preview.png)](demo.webm)
 
-[Watch or download the demo](demo.webm)
+Click the preview to watch the demo.
 
 ## What it can do
 
